@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+        android:gravity="center"
+        android:background="#567b45"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:padding="4dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_micro_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <TextView
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:text="Microphone Access"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textStyle="normal"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="Do you want allow Your Microphone Access."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginRight="50dp"
+            android:background="@drawable/button_background"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="No"
+            android:id="@+id/noButtonId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/button_background"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:text="yes"
+            android:id="@+id/yesButtonId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+</LinearLayout>
+
