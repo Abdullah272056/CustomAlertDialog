@@ -2,12 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:gravity="center"
+    android:background="@drawable/blur1"
     tools:context=".MainActivity">
 
     <Button
+        android:padding="20dp"
+        android:background="@drawable/background"
+        android:layout_margin="30dp"
         android:id="@+id/buttonId"
         android:textSize="30sp"
         android:text="Button Click"
