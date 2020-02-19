@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                         alertDialog.cancel();
                     }
                 });
-                alertDialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
+               // alertDialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
 
                 alertDialog.show();
 
